@@ -1,6 +1,6 @@
 ---
 title: "HW 01 - Airbnb listings in Edinburgh"
-Author: "Adam J Sullivan"
+author: "Blanche Plaskonos"
 output: 
   tufte::tufte_html:
     css: ../hw.css
@@ -59,6 +59,7 @@ These packages are already installed for you.
 You can load them by running the following in your Console:
 
 ```{r load-packages, message = FALSE}
+
 library(tidyverse)
 library(dsbox)
 ```
@@ -85,8 +86,8 @@ You can also find this information [here](https://rstudio-education.github.io/ds
 **Hint:** The Markdown Quick Reference sheet has an example of inline R code that might be helpful. You can access it from the Help menu in RStudio.
 ```
 
-1.  How many observations (rows) does the dataset have? Instead of hard coding the number in your answer, use inline code.
-2.  Run `View(edibnb)` in your Console to view the data in the data viewer. What does each row in the dataset represent?
+1.  How many observations (rows) does the dataset have? Instead of hard coding the number in your answer, use inline code. **There are 13245 rows of data in the set.** 
+2.  Run `View(edibnb)` in your Console to view the data in the data viewer. What does each row in the dataset represent? **It represents an airbnb in Edinburgh and gives information on each airbnb.**
 
 🧶 ✅ ⬆️ *Knit,* *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
